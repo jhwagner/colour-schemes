@@ -45,8 +45,10 @@ hi DiffChange  guibg=#558855  guifg=fg    gui=none ctermbg=2 ctermfg=fg
 hi DiffDelete  guibg=#884444  guifg=fg    gui=none ctermbg=4 ctermfg=fg
 hi DiffText    guibg=#884444  guifg=fg     ctermbg=4 ctermfg=fg
 
-hi Pmenu     guibg=#282421  guifg=#ebd1b7  gui=NONE
-hi PmenuSel  guibg=#95cc5e  guifg=NONE     gui=NONE
+hi Pmenu       guibg=#282421  guifg=#ebd1b7  gui=NONE
+hi PmenuSel    guibg=#95cc5e  guifg=#282421  gui=NONE
+hi PmenuSbar   guibg=#db784d  guifg=fg       gui=NONE
+hi PmenuThumb  guibg=#ebd1b7  guifg=fg       gui=NONE
 
 " Colors for Syntax Highlighting.
 
